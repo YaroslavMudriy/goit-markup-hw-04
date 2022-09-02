@@ -16,6 +16,8 @@
     --primary-light-color-text: #FFFFFF;
     --button-filter-background: #F5F4FA;
     --accent-background-color: #2196F3;
+    --primery-border-color: rgba(175, 177, 184, 1);
+    --accent-border-color: rgba(33, 150, 243, 1);
         
 }
 
@@ -439,6 +441,14 @@ button {
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    color: var(--primery-border-color);
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+    color: var(--accent-border-color);
+    border: 1px solid #2196F3;
+    border-radius: 4px;
 }
 
 .clients-list {
@@ -447,6 +457,10 @@ button {
     align-items: center;
     column-gap: 30px;
     margin-bottom: 0px;
+}
+
+.clients-logo-list-icon {
+    fill: currentColor;
 }
 
 /*===FOOTER/Футер-підвал==*/
@@ -506,6 +520,51 @@ address {
     color: var(--accent-color);
 }
 
+.social-icon-box .text {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-light-color-text)
+    
+}
+
+.footer-box {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-address-box {
+    margin-right: 70px;
+}
+
+.footer-icon-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+    margin-bottom: 0px;
+}
+
+.footer-social-icon {
+    fill: var(--primary-light-color-text);
+}
+
+.link-icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.link-icon-list:hover,
+.link-icon-list:focus {
+    background-color: var(--accent-background-color);
+}
+
 /*==MAIN/сторінки portfolio==*/
 
 /*==section-portfolio/Секція Портфоліо==*/
@@ -556,6 +615,12 @@ address {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+
+
+.link-portfolio:hover,
+.link-portfolio:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .subtitle-portfolio {
