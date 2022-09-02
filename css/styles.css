@@ -364,6 +364,7 @@ button {
 .item-team {
     background: var(--primary-background);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .name-team {
@@ -413,6 +414,40 @@ button {
     fill: #FFFFFF;
 }
 
+/*===section-clients/Секція 5 - Постійні клієнти===*/
+
+.section-clients {
+    padding: 94px 215px;
+}
+
+.title-clients {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--primary-text-color);
+}
+
+.clients-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 0px;
+}
 
 /*===FOOTER/Футер-підвал==*/
 
