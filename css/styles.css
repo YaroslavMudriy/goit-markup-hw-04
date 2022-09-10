@@ -184,6 +184,8 @@ button {
 
 .header-mail,
 .header-phone {
+        display: block;
+        align-items: center;
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
@@ -211,7 +213,9 @@ button {
     padding-bottom: 200px;
     background-color: #C4C4C4;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
-    background-size: cover;
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -419,7 +423,8 @@ button {
 /*===section-clients/Секція 5 - Постійні клієнти===*/
 
 .section-clients {
-    padding: 94px 215px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .title-clients {
@@ -448,7 +453,6 @@ button {
 .clients-list-link:focus {
     color: var(--accent-border-color);
     border: 1px solid #2196F3;
-    border-radius: 4px;
 }
 
 .clients-list {
@@ -617,6 +621,9 @@ address {
     gap: 30px;
 }
 
+.link-portfolio {
+    display: block;
+}
 
 .link-portfolio:hover,
 .link-portfolio:focus {
